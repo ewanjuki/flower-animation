@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body class="page-homepage">
+    <div class="app" is="app">
+      <article
+        id="splash"
+        is="splash"
+        class="splash"
+        data-boxes=".header > *, .footer > *"
+        data-bodies=".splash--inside img"
+        data-delay="1.5s"
+        data-friction:phone="0.1"
+        data-gravity-max:phone="0.25"
+        data-restitution:phone="0.8"
+        data-debug="false"
+        hide
+      >
+        <div class="splash--inside" element="resize">
+          <div class="splash--letters">
+            <img
+              element="letter"
+              class="letter-v1"
+              src="images/flower-1.jpg"
+              data-width="456.016"
+              data-height="602.036"
+              data-offset="10,-40"
+              points="34.5203927 1 186.440516 6.89138171 226.07751 44.531 226.07751 121.142341 209.120016 229.545703 175.632602 289.079064 146.164611 303 101.337294 285.729593 47.7649362 224.659661 9.36981596 124.541326 1 48.5465253 15.4106823 6.89138171"
+            />
+            <img
+              element="letter"
+              class="letter-i"
+              src="images/flower-2.jpg"
+              data-width="285.956"
+              data-height="729.139"
+              data-offset="-7,18"
+              points="22.3102156 1 48.6474189 1 80.1589631 26.4859889 123.529824 142.170822 144.068794 277.892926 123.529824 346.787773 90.1428813 366 48.6474189 351.395884 14.8030683 284.574287 1 188.476413 5.4590659 110.50271 17.1358746 22.1196276"
+            />
+            <img
+              element="letter"
+              class="letter-v2"
+              src="images/flower-3.jpg"
+              data-width="456.016"
+              data-height="602.036"
+              data-offset="10,-40"
+              points="34.5203927 1 186.440516 6.89138171 226.07751 44.531 226.07751 121.142341 209.120016 229.545703 175.632602 289.079064 146.164611 303 101.337294 285.729593 47.7649362 224.659661 9.36981596 124.541326 1 48.5465253 15.4106823 6.89138171"
+            />
+            <img
+              element="letter"
+              class="letter-a"
+              src="images/flower-4.jpg"
+              data-width="451.664"
+              data-height="611.867"
+              data-offset="-3,10"
+              points="89.7324702 1 147.494036 16.0635096 200.179467 72.32856 226.500024 168.040741 218.933606 257.963671 189.402471 300.852325 152.963768 306.50951 68.3129009 297.104746 27.5336142 274.316003 5.79820026 207.977906 1 131.203994 9.53223986 72.32856 32.9166967 20.6883359"
+            />
+            <img
+              element="letter"
+              class="letter-mark"
+              src="images/flower-5.jpg"
+              data-width="265.104"
+              data-height="601.586"
+              data-offset="8,-18"
+              points="53.5272454 1 84.9475522 7.90289492 118.563711 47.2356696 133.779436 118.626502 133.699367 181.564168 118.563711 284.671318 95.3048474 301.294145 59.8566836 291.679073 20.3933819 181.564168 1 83.2606338 20.3933819 14.8923958"
+            />
+          </div>
+        </div>
+      </article>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="poly-decomp.js"></script>
+    <script src="splash.js"></script>
+  </body>
+</html>
